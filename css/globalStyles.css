@@ -1,0 +1,83 @@
+body {
+ background-color: #144aec;
+
+}
+
+kat test
+
+h1 {
+background-color: #144aec;
+font color: #a2afd4;
+text-align: center;
+}
+
+.fill-height-or-more {
+	min-height: 100%;
+	
+}
+
+.container {
+	background-color: white;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container {
+	float:left;
+	width:40%;
+	border:1px solid blue;
+	margin:2%;
+	padding: 10px;
+
+}
+header {
+	height: 300px;
+	background-image: url("../images/header.png");
+	background-repeat: no-repeat;
+	background-color: #F86CD9;
+
+}
+
+ul.nav {
+	display:block;
+	width:100%;
+	height:125px;
+	background-color: ##746cf8;
+
+
+}
+
+nav > ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+nav > ul> li {
+	display: inline-block;
+	padding: 50px;
+	background: blue;
+
+}
+
+ul.nav (look up information on pseudo selectors)
+article {
+	clear:both;
+}
+
+section {
+	display:block;
+	float:left;
+	background-color: #746cf8;
+	margin-left:10px;
+}
+.column-first{
+	width: 20%;
+}
+
+footer {
+	display:block;
+	min-height: 200px;
+	background-color: gray;
+
+}
